@@ -16,3 +16,11 @@ var greetingMessage = greeting + " Here in Huston it is: " + weekDay;
 <p>The greeting is: @greetingMessage</p>
 </body>
 </html>
+<html>
+<body>
+@RenderPage("header.cshtml")
+<h1>Hello Web Pages</h1>
+<p>This is a paragraph</p>
+@RenderPage("footer.cshtml")
+</body>
+</html>
