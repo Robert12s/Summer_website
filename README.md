@@ -1,26 +1,3 @@
-<html>
-<body>
-<!-- Single statement block -->
-@{ var myMessage = "Hello World"; }
+<h1> Welcome to W3Schools </h1>
 
-<!-- Inline expression or variable -->
-<p>The value of myMessage is: @myMessage</p>
-
-<!-- Multi-statement block -->
-@{
-var greeting = "Welcome to our site!";
-var weekDay = DateTime.Now.DayOfWeek;
-var greetingMessage = greeting + " Here in Huston it is: " + weekDay;
-}
-
-<p>The greeting is: @greetingMessage</p>
-</body>
-</html>
-<html>
-<body>
-@RenderPage("header.cshtml")
-<h1>Hello Web Pages</h1>
-<p>This is a paragraph</p>
-@RenderPage("footer.cshtml")
-</body>
-</html>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum.</p>
